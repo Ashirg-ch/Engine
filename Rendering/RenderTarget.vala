@@ -33,7 +33,7 @@ public abstract class RenderTarget : Object
     protected IWindowTarget window;
     protected ResourceStore store;
 
-    public RenderTarget(IWindowTarget window)
+    protected RenderTarget(IWindowTarget window)
     {
         this.window = window;
         anisotropic_filtering = true;
