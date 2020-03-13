@@ -10,7 +10,7 @@ public abstract class ListControl : Control
 
     public signal void selected_index_changed(ListControl list);
 
-    public ListControl(bool row_selectable)
+    protected ListControl(bool row_selectable)
     {
         font_size = 30;
         row_height = 40;
