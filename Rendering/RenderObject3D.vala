@@ -1,6 +1,6 @@
-public abstract class RenderObject3D : Transformable3D
+protected abstract class RenderObject3D : Transformable3D
 {
-    public RenderObject3D(RenderModel model, RenderMaterial material)
+    protected RenderObject3D(RenderModel model, RenderMaterial material)
     {
         this.model = model;
         this.material = material;
