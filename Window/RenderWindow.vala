@@ -8,7 +8,7 @@ public abstract class RenderWindow
     private float last_time = 0;
     private Vec2i _cursor_position;
 
-    public RenderWindow(IWindowTarget window, RenderTarget renderer)
+    protected RenderWindow(IWindowTarget window, RenderTarget renderer)
     {
         this.window = window;
         this.renderer = renderer;
